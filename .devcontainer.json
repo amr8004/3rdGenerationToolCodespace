@@ -22,5 +22,5 @@
        "memory": "4gb",
        "storage": "4gb"
     },
-    "onCreateCommand": "conda install -y python=3.9.16 jupyter numpy && pip install git+https://https://github.com/amr8004/espei.git && pip install git+https://github.com/amr8004/pycalphad.git"
+    "onCreateCommand": "conda install -y python=3.9.16 jupyter numpy && pip install git+https://https://github.com/amr8004/ESPEI.git && pip install git+https://github.com/amr8004/pycalphad.git"
 }
