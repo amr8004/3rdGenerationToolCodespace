@@ -14,14 +14,13 @@
           "mechatroner.vscode_rainbow_csv",
           "ms-python.python",
           "ms-toolsai.jupyter",
-          "hansvn.instant-mongo"
         ]
       }
     },
     "hostRequirements": {
-       "cpus": 1,
-       "memory": "16gb",
-       "storage": "16gb"
+       "cpus": 2,
+       "memory": "4gb",
+       "storage": "4gb"
     },
     "onCreateCommand": "conda install -y python=3.9.16 jupyter numpy && pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu && pip install pymatgen pysipfenn pymongo scikit-learn && pip install git+https://github.com/amr8004/pycalphad.git@demo"
 }
