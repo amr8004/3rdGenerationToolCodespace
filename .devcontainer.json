@@ -1,6 +1,11 @@
 {
     "image":  "mcr.microsoft.com/devcontainers/miniconda",
     "customizations": {
+      "codespaces": {
+        "openFiles": [
+          "pycalphad/Lecture1.ipynb"
+        ]
+      },
       "vscode": {
         "extensions": [
           "wijmo.gc-excelviewer",
