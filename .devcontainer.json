@@ -12,6 +12,7 @@
           "mechatroner.vscode_rainbow_csv",
           "ms-python.python",
           "ms-toolsai.jupyter",
+          "amkrajewski.tdb-highlighter"
         ]
       }
     },
@@ -20,5 +21,5 @@
        "memory": "4gb",
        "storage": "4gb"
     },
-    "onCreateCommand": "conda install -y python=3.9.16 jupyter numpy &&  pip install Cython && git clone -b develop https://github.com/amr8004/pycalphad.git  && mv Lecture1.ipynb pycalphad && mv *.json pycalphad && cd pycalphad && pip install -e . && cd && pip install git+https://github.com/amr8004/ESPEI.git@bdd6f59"
+    "onCreateCommand": "conda install -y python=3.9.16 jupyter numpy &&  pip install Cython && git clone -b develop https://github.com/amr8004/pycalphad.git  && mv Lecture1.ipynb pycalphad && mv *.json pycalphad && cd pycalphad && pip install -e . && cd && pip install git+https://github.com/amr8004/ESPEI.git@9df6c53"
 }
